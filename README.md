@@ -22,7 +22,7 @@ A classic game where the user plays against the computer by choosing Rock, Paper
 
 ### ▶️ How to Run
 ```bash
-python rock_paper_scissors.py
+python Rock_Paper_Sic.py
 ```
 ### 🔢 Number Guessing Game
 Try to guess the number the computer randomly chooses between 1 and 100. The game gives hints until you guess correctly.
@@ -49,5 +49,27 @@ Input validation
 
 ▶️ How to Run
 ```bash
-python dice_rolling_game.py
+python dice_roll.py
+```
+# 🔐 Password Generator
+
+A simple Python script that generates secure random passwords based on user input. The generated password includes uppercase letters, lowercase letters, digits, and special symbols.
+
+---
+
+## 📌 Features
+
+- Generate strong, random passwords
+- User-defined password length
+- Includes a variety of characters:
+  - `abcdefghijklmnopqrstuvwxyz`
+  - `ABCDEFGHIJKLMNOPQRSTUVWXYZ`
+  - `0123456789`
+  - `!#$%&()*+`
+
+---
+
+## 💻 How to Run
+```bash
+python password_gen.py
 ```
